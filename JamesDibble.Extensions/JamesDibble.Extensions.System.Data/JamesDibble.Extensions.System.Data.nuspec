@@ -7,7 +7,7 @@
         <authors>$author$</authors>
         <language>en-GB</language>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Extensions for System.Data namespace</description>
+        <description>Extensions for the System.Data namespace.</description>
     </metadata>
     <files>
         <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.dll" target="lib\JamesDibble.Extensions.System.Data.dll" />

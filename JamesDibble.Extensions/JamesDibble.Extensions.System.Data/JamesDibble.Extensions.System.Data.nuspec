@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$id$</title>
+        <authors>$author$</authors>
+        <language>en-GB</language>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Extensions for System.Data namespace</description>
+    </metadata>
+    <files>
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.dll" target="lib\JamesDibble.Extensions.System.Data.dll" />
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.XML" target="lib\JamesDibble.Extensions.System.Data.XML" />
+    </files>
+</package>

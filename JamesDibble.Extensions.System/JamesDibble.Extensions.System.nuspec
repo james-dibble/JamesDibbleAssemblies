@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$id$</title>
+        <authors>$author$</authors>
+        <language>en-GB</language>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Extension methods for the System namespace.</description>
+    </metadata>
+    <files>
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.dll" target="lib\JamesDibble.Extensions.System.dll" />
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.XML" target="lib\JamesDibble.Extensions.System.XML" />
+    </files>
+</package>

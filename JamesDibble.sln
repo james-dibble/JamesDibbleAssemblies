@@ -9,13 +9,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj", "{C2DBAB1F-95CB-425A-A800-06F45001F759}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Comparers", "JamesDibble.Extensions.System.Comparers\JamesDibble.Extensions.System.Comparers.csproj", "{82A735CD-7E25-488A-A725-65A5CBEA2CB6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Data", "JamesDibble.Extensions.System.Data\JamesDibble.Extensions.System.Data.csproj", "{70100C35-0ABC-486E-A04D-84055EBEDEB5}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamesDibble.Extensions", "JamesDibble.Extensions", "{A77424F8-D824-4A62-9170-719EAACBF6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "JamesDibble.Extensions\JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj", "{C2DBAB1F-95CB-425A-A800-06F45001F759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Comparers", "JamesDibble.Extensions\JamesDibble.Extensions.System.Comparers\JamesDibble.Extensions.System.Comparers.csproj", "{82A735CD-7E25-488A-A725-65A5CBEA2CB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Data", "JamesDibble.Extensions\JamesDibble.Extensions.System.Data\JamesDibble.Extensions.System.Data.csproj", "{70100C35-0ABC-486E-A04D-84055EBEDEB5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DE30DABC-6C6A-41AB-A202-DA64539A7833}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

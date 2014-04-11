@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <section name="applicationConfiguration" type="JamesDibble.ApplicationFramework.Configuration.ApplicationConfigurationSection,               JamesDibble.ApplicationFramework.Configuration" />
+  </configSections>
+  <applicationConfiguration environment="">
+    <baseTitle title="" />
+    <ResourceLocations basePath="" useMinified="false">
+      <Resource resourceType="" path="" />
+    </ResourceLocations>
+  </applicationConfiguration>
+</configuration>

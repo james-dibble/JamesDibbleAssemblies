@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>$id$</id>
+        <version>$version$</version>
+        <title>$id$</title>
+        <authors>$author$</authors>
+        <language>en-GB</language>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Configuration file elements for application framework components.</description>
+    </metadata>
+    <files>
+        <file src="..\..\Assemblies\JamesDibble.ApplicationFramework.Configuration.dll" target="lib\JamesDibble.ApplicationFramework.Configuration.dll" />
+        <file src="..\..\Assemblies\JamesDibble.ApplicationFramework.Configuration.XML" target="lib\JamesDibble.ApplicationFramework.Configuration.XML" />
+    </files>
+</package>

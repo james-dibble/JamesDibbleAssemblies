@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>$author$</authors>
+    <language>en-GB</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Extension classes for MVC applications.</description>
+    <dependencies>
+      <dependency id="JamesDibble.ApplicationFramework.Configuration" version="1.0.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="web.config.transform" target="content\web.config.transform" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.dll" target="lib\JamesDibble.ApplicationFramework.Web.Mvc.dll" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.XML" target="lib\JamesDibble.ApplicationFramework.Web.Mvc.XML" />
+  </files>
+</package>

@@ -5,6 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
+.gitignore
+*.[Dd]ot[Ss]ettings
 
 # Build results
 
@@ -14,9 +16,8 @@ x64/
 build/
 [Bb]in/
 [Oo]bj/
-
-# Enable "build/" folder in the NuGet Packages folder since NuGet packages use it for MSBuild targets
-!packages/*/build/
+[Aa]ssemblies
+[Pp]ackages
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
@@ -94,6 +95,7 @@ publish/
 
 # Publish Web Output
 *.Publish.xml
+*.pubxml
 
 # NuGet Packages Directory
 ## TODO: If you have NuGet Package Restore enabled, uncomment the next line

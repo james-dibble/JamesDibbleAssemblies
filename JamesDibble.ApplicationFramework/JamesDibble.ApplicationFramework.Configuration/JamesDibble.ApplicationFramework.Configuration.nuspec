@@ -4,7 +4,7 @@
         <id>$id$</id>
         <version>$version$</version>
         <title>$id$</title>
-        <authors>$author$</authors>
+        <authors>James Dibble</authors>
         <language>en-GB</language>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Configuration file elements for application framework components.</description>

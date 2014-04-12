@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst</id>
+        <version>1.0.0</version>
+        <authors>James Dibble</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>My package description.</description>
+        <dependencies />
+    </metadata>
+    <files>
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" />
+        <file src="..\..\..\Assemblies\JamesDibble.Extensions.System.Data.dll" target="lib\JamesDibble.Extensions.System.Data.dll" />
+        <file src="..\..\..\Assemblies\JamesDibble.Extensions.System.Data.XML" target="lib\JamesDibble.Extensions.System.Data.XML" />
+    </files>
+</package>

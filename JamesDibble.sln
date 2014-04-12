@@ -11,10 +11,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamesDibble.Extensions", "JamesDibble.Extensions", "{A77424F8-D824-4A62-9170-719EAACBF6DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "JamesDibble.Extensions\JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj", "{C2DBAB1F-95CB-425A-A800-06F45001F759}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Comparers", "JamesDibble.Extensions\JamesDibble.Extensions.System.Comparers\JamesDibble.Extensions.System.Comparers.csproj", "{82A735CD-7E25-488A-A725-65A5CBEA2CB6}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DE30DABC-6C6A-41AB-A202-DA64539A7833}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\NuGet.Config = .nuget\NuGet.Config
@@ -24,21 +20,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{DE30DA
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamesDibble.ApplicationFramework", "JamesDibble.ApplicationFramework", "{201B9BFC-7668-4C16-B819-8C6A524B044C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Data", "JamesDibble.Extensions\JamesDibble.Extensions.System.Data\JamesDibble.Extensions.System.Data.csproj", "{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamesDibble.ApplicationFramework.Web", "JamesDibble.ApplicationFramework.Web", "{7188A703-704F-4BB1-94BA-744B7BE2A5D6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Web.Mvc", "JamesDibble.ApplicationFramework\JamesDibble.ApplicationFramework.Web\JamesDibble.ApplicationFramework.Web.Mvc\JamesDibble.ApplicationFramework.Web.Mvc.csproj", "{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Configuration", "JamesDibble.ApplicationFramework\JamesDibble.ApplicationFramework.Configuration\JamesDibble.ApplicationFramework.Configuration.csproj", "{02901128-926D-4282-900D-D921C2D8EDC9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JamesDibble.ApplicationFramework.Data", "JamesDibble.ApplicationFramework.Data", "{C67887FF-1A2B-4188-AE79-B457131087A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence", "JamesDibble.ApplicationFramework\JamesDibble.ApplicationFramework.Data\JamesDibble.ApplicationFramework.Data.Persistence\JamesDibble.ApplicationFramework.Data.Persistence.csproj", "{4115485B-45E2-4BE7-9E6F-1B9661BF669A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Comparers", "Extensions\Comparers\JamesDibble.Extensions.System.Comparers.csproj", "{82A735CD-7E25-488A-A725-65A5CBEA2CB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence.EntityFramework", "JamesDibble.ApplicationFramework\JamesDibble.ApplicationFramework.Data\JamesDibble.ApplicationFramework.Data.Persistence.EntityFramework\JamesDibble.ApplicationFramework.Data.Persistence.EntityFramework.csproj", "{1184A1D2-9269-49AB-B389-01578EA2C12E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Data", "Extensions\Data\JamesDibble.Extensions.System.Data.csproj", "{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst", "JamesDibble.ApplicationFramework\JamesDibble.ApplicationFramework.Data\JamesDibble.ApplicationFramework.DataPersistence.EntityFrameworkCodeFirst\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.csproj", "{2CD47481-D996-4363-B5C0-0A12A0537529}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "Extensions\System\JamesDibble.Extensions.System.csproj", "{C2DBAB1F-95CB-425A-A800-06F45001F759}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Configuration", "ApplicationFramework\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj", "{02901128-926D-4282-900D-D921C2D8EDC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence", "ApplicationFramework\Data\Persistence\JamesDibble.ApplicationFramework.Data.Persistence.csproj", "{4115485B-45E2-4BE7-9E6F-1B9661BF669A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence.EntityFramework", "ApplicationFramework\Data\Persistence.EntityFramework\JamesDibble.ApplicationFramework.Data.Persistence.EntityFramework.csproj", "{1184A1D2-9269-49AB-B389-01578EA2C12E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst", "ApplicationFramework\Data\Persistence.EntityFrameworkCodeFirst\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.csproj", "{2CD47481-D996-4363-B5C0-0A12A0537529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Web.Mvc", "ApplicationFramework\Web\JamesDibble.ApplicationFramework.Web.Mvc\JamesDibble.ApplicationFramework.Web.Mvc.csproj", "{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -46,10 +46,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Release|Any CPU.Build.0 = Release|Any CPU
 		{82A735CD-7E25-488A-A725-65A5CBEA2CB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{82A735CD-7E25-488A-A725-65A5CBEA2CB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82A735CD-7E25-488A-A725-65A5CBEA2CB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -58,10 +54,10 @@ Global
 		{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2DBAB1F-95CB-425A-A800-06F45001F759}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02901128-926D-4282-900D-D921C2D8EDC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02901128-926D-4282-900D-D921C2D8EDC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02901128-926D-4282-900D-D921C2D8EDC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -78,17 +74,21 @@ Global
 		{2CD47481-D996-4363-B5C0-0A12A0537529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD47481-D996-4363-B5C0-0A12A0537529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD47481-D996-4363-B5C0-0A12A0537529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C2DBAB1F-95CB-425A-A800-06F45001F759} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
 		{82A735CD-7E25-488A-A725-65A5CBEA2CB6} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
 		{B8F06ACA-EC26-447C-B9EF-AE261B4BF3A7} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
+		{C2DBAB1F-95CB-425A-A800-06F45001F759} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
 		{7188A703-704F-4BB1-94BA-744B7BE2A5D6} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
-		{02901128-926D-4282-900D-D921C2D8EDC9} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
 		{C67887FF-1A2B-4188-AE79-B457131087A3} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
+		{02901128-926D-4282-900D-D921C2D8EDC9} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
 		{4502F0FC-328E-4C7E-B8C3-AC2985F48ABF} = {7188A703-704F-4BB1-94BA-744B7BE2A5D6}
 		{4115485B-45E2-4BE7-9E6F-1B9661BF669A} = {C67887FF-1A2B-4188-AE79-B457131087A3}
 		{1184A1D2-9269-49AB-B389-01578EA2C12E} = {C67887FF-1A2B-4188-AE79-B457131087A3}

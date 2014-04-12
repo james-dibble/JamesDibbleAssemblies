@@ -94,7 +94,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JamesDibble.ApplicationFramework.Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">
+    <ProjectReference Include="..\..\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">
       <Project>{02901128-926d-4282-900d-d921c2d8edc9}</Project>
       <Name>JamesDibble.ApplicationFramework.Configuration</Name>
     </ProjectReference>

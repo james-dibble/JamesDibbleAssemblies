@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
-        <id>JamesDibble.ApplicationFramework.Data.Persistence</id>
-        <version>1.0.0</version>
-        <authors>james</authors>
+        <id>$id$</id>
+        <version>$version$</version>
+        <authors>James Dibble</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>My package description.</description>
+        <description>A persistence ignorant set of application framework assemblies for interacting with databases.</description>
     </metadata>
     <files>
         <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Configuration.dll" target="lib\JamesDibble.ApplicationFramework.Configuration.dll" />

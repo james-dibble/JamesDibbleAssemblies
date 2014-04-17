@@ -33,9 +33,9 @@ namespace System
         /// <returns>The inner most exception or the exception at <paramref name="maxDepth"/>.</returns>
         public static Exception InnerMostException(this Exception exception, int maxDepth)
         {
-            if (exception.InnerException != null || depth == 0)
+            if (exception.InnerException != null || maxDepth == 0)
             {
-                return exception.InnerException.InnerMostException(depth--);
+                return exception.InnerException.InnerMostException(maxDepth--);
             }
 
             return exception.InnerException;

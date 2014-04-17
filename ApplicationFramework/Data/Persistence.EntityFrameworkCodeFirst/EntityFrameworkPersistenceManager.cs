@@ -10,10 +10,19 @@ namespace JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeF
     using System.Data.Entity;
     using System.Linq;
 
+    /// <summary>
+    /// An <see cref="IPersistenceManager"/> for use with Entity Framework databases.
+    /// </summary>
     public class EntityFrameworkPersistenceManager : IPersistenceManager
     {
         private readonly DbContext _context;
 
+        /// <summary>
+        /// Initialises a new instance of the <see cref="EntityFrameworkPersistenceManager"/> class.
+        /// </summary>
+        /// <param name="context">
+        /// Inject an object set into the persistence manager.
+        /// </param>
         public EntityFrameworkPersistenceManager(DbContext context)
         {
             this._context = context;

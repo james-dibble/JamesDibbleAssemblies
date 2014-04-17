@@ -1,15 +1,5 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="James Dibble">
-//   Copyright 2012 James Dibble
-// </copyright>
-// <summary>
-//   AssemblyInfo.cs
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System;
-using System.Reflection;
-using System.Resources;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
@@ -18,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("JamesDibble.Extensions.System")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("James Dibble")]
-[assembly: AssemblyProduct("System")]
-[assembly: AssemblyCopyright("Copyright James Dibble ©  2013")]
+[assembly: AssemblyCompany("")]
+[assembly: AssemblyProduct("JamesDibble.Extensions.System")]
+[assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -44,5 +34,3 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: NeutralResourcesLanguageAttribute("en-GB")]
-[assembly: CLSCompliant(true)]

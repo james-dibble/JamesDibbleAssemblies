@@ -8,6 +8,7 @@
     <language>en-GB</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>An empty implementation of an MetaWeblog API endpoint.</description>
+    <projectUrl>http://www.jdibble.co.uk/blog/2014/4/17/metaweblog-api</projectUrl>
     <dependencies>
       <dependency id="xmlrpcnet-server" version="3.0.0.266" />
     </dependencies>

@@ -1,26 +1,16 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
-// <copyright file="AssemblyInfo.cs" company="James Dibble">
-//   Copyright 2012 James Dibble
-// </copyright>
-// <summary>
-//   AssemblyInfo.cs
-// </summary>
-// --------------------------------------------------------------------------------------------------------------------
-
-using System;
-using System.Reflection;
-using System.Resources;
+﻿using System.Reflection;
+using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Configuration")]
+[assembly: AssemblyTitle("JamesDibble.ApplicationFramework.Configuration")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Configuration")]
-[assembly: AssemblyCopyright("Copyright ©  2013")]
+[assembly: AssemblyProduct("JamesDibble.ApplicationFramework.Configuration")]
+[assembly: AssemblyCopyright("Copyright ©  2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("2b7d1f7c-09aa-4aae-b398-abe49ad3cb07")]
+[assembly: Guid("c1777922-ac4e-48a2-974f-feba7d158da7")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -44,5 +34,3 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
-[assembly: CLSCompliant(true)]
-[assembly: NeutralResourcesLanguageAttribute("en-GB")]

@@ -53,7 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">
-      <Project>{02901128-926D-4282-900D-D921C2D8EDC9}</Project>
+      <Project>{6326af1f-7dbc-4757-bbc8-4b3308d014ab}</Project>
       <Name>JamesDibble.ApplicationFramework.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="..\Persistence\JamesDibble.ApplicationFramework.Data.Persistence.csproj">

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$id$</title>
+    <authors>James Dibble</authors>
+    <language>en-GB</language>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An empty implementation of an MetaWeblog API endpoint.</description>
+    <dependencies>
+      <dependency id="xmlrpcnet-server" version="3.0.0.266" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="web.config.transform" target="content\web.config.transform" />
+    <file src="wlwmanifest.xml" target="content\wlwmanifest.xml" />
+    <file src="MetaWeblogService.cs.pp" target="MetaWeblogService.cs" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.MetaWeblog.dll" target="lib\JamesDibble.ApplicationFramework.Web.MetaWeblog.dll" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.MetaWeblog.XML" target="lib\JamesDibble.ApplicationFramework.Web.MetaWeblog.XML" />
+  </files>
+</package>

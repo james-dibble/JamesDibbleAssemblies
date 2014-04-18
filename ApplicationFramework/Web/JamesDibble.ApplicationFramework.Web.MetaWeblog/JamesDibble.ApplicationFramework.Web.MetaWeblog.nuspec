@@ -15,7 +15,7 @@
   <files>
     <file src="web.config.transform" target="content\web.config.transform" />
     <file src="wlwmanifest.xml" target="content\wlwmanifest.xml" />
-    <file src="MetaWeblogService.cs.pp" target="MetaWeblogService.cs" />
+    <file src="MetaWeblogService.cs" target="content\MetaWeblogService.cs" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.MetaWeblog.dll" target="lib\JamesDibble.ApplicationFramework.Web.MetaWeblog.dll" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.MetaWeblog.XML" target="lib\JamesDibble.ApplicationFramework.Web.MetaWeblog.XML" />
   </files>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <authors>James Dibble</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A generic repository interface for Entity Framework persistence sources.</description>
+  </metadata>
+  <files>
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Core.dll" target="lib\JamesDibble.ApplicationFramework.Data.Core.dll" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Core.xml" target="lib\JamesDibble.ApplicationFramework.Data.Core.xml" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.UnitOfWork.dll" target="lib\JamesDibble.ApplicationFramework.Data.UnitOfWork.dll" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.UnitOfWork.xml" target="lib\JamesDibble.ApplicationFramework.Data.UnitOfWork.xml" />
+  </files>
+</package>

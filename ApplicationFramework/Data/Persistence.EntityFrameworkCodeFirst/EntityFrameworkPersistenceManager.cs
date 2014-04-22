@@ -83,7 +83,7 @@ namespace JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeF
         }
 
         /// <summary>
-        /// Update an object that already exists in the persistence source.
+        /// Update a disconnected object that already exists in the persistence source.
         /// </summary>
         /// <param name="updatedObject">
         /// The object that has changed.

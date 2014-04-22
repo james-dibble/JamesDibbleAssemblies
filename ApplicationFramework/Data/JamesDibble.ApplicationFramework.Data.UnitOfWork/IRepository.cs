@@ -3,7 +3,7 @@
     using System;
     using System.Linq.Expressions;
     using System.Collections.Generic;
-    using JamesDibble.ApplicationFramework.Data.Persistence;
+    using JamesDibble.ApplicationFramework.Data;
 
     public interface IRepository
     {

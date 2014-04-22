@@ -2,7 +2,7 @@
 {
     using System;
     using System.Data.Entity;
-    using JamesDibble.ApplicationFramework.Data.Persistence;
+    using JamesDibble.ApplicationFramework.Data;
 
     public interface IUnitOfWork : IDisposable
     {

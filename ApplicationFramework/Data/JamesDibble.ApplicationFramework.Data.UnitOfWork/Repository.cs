@@ -5,7 +5,7 @@
     using System.Data.Entity;
     using System.Linq;
     using System.Linq.Expressions;
-    using JamesDibble.ApplicationFramework.Data.Persistence;
+    using JamesDibble.ApplicationFramework.Data;
 
     /// <summary>
     /// A class to wrap and normalize access to database contexts.

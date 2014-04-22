@@ -3,7 +3,7 @@
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
-    using JamesDibble.ApplicationFramework.Data.Persistence;
+    using JamesDibble.ApplicationFramework.Data;
 
     /// <summary>
     /// A class to store a database context to be injected into services so they all shared

@@ -3,7 +3,7 @@ Everyone has to have something named after themselves right...?
 
 Here we have my (work in progress) application framework, collection of extension methods and service bus implementation.
 
-The solution is continuously integrated using [AppVeyor](http://www.appveyor.com/)  [![Build status](https://ci.appveyor.com/api/projects/status/hmf6fgr3fddyxepu)](https://ci.appveyor.com/project/james-dibble/jamesdibbleassemblies).
+The solution is continuously integrated using [AppVeyor](http://www.appveyor.com/)  [![Build status](https://ci.appveyor.com/api/projects/status/l4j2wl9wbkeppxjd)](https://ci.appveyor.com/project/james-dibble/jamesdibbleassemblies)
 
 * * *
 

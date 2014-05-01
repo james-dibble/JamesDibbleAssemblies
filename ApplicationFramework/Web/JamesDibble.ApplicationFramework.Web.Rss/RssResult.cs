@@ -40,6 +40,8 @@ namespace JamesDibble.ApplicationFramework.Web.Rss
 
             using (var writer = XmlWriter.Create(context.HttpContext.Response.Output))
             {
+                writer.Settings.Indent = true;
+
                 new Rss20FeedFormatter(this._feed).WriteTo(writer);
             }
 

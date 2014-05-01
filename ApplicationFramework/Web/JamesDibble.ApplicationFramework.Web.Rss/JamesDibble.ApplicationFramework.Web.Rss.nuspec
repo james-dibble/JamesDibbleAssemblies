@@ -10,7 +10,6 @@
     <description>Extensions for MVC applications to build RSS Feeds</description>
   </metadata>
   <files>
-    <file src="web.config.transform" target="content\web.config.transform" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Rss.dll" target="lib\JamesDibble.ApplicationFramework.Web.Rss.dll" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Rss.XML" target="lib\JamesDibble.ApplicationFramework.Web.Rss.XML" />
   </files>

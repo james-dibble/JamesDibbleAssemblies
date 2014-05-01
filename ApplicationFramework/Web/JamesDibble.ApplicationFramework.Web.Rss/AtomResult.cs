@@ -38,10 +38,8 @@ namespace JamesDibble.ApplicationFramework.Web.Rss
         {
             context.HttpContext.Response.ContentType = "application/atom+xml";
 
-            using (var writer = XmlWriter.Create(context.HttpContext.Response.Output))
+            using (var writer = XmlWriter.Create(context.HttpContext.Response.Output, new XmlWriterSettings { Indent = true }))
             {
-                writer.Settings.Indent = true;
-
                 new Atom10FeedFormatter(this._feed).WriteTo(writer);
             }
 

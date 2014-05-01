@@ -76,6 +76,7 @@
   <ItemGroup>
     <Compile Include="ControllerExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AtomResult.cs" />
     <Compile Include="RssResult.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -24,5 +24,16 @@ namespace JamesDibble.ApplicationFramework.Web.Rss
         {
             return new RssResult(feed);
         }
+
+        /// <summary>
+        /// Build an <see cref="T:System.Web.Mvc.ActionResult"/> for publishing Atom Feeds.
+        /// </summary>
+        /// <param name="controller">The <see cref="T:System.Web.Mvc.Controller"/> being extended.</param>
+        /// <param name="feed">The <see cref="T:System.ServiceModel.Syndication.SyndicationFeed"/> to publish.</param>
+        /// <returns>An instance of the <see cref="RssResult"/> <see cref="T:System.Web.Mvc.ActionResult"/>.</returns>
+        public static ActionResult AtomResult(this Controller controller, SyndicationFeed feed)
+        {
+            return new AtomResult(feed);
+        }
     }
 }

@@ -58,6 +58,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\JamesDibble.ApplicationFramework.Data.Core\JamesDibble.ApplicationFramework.Data.Core.csproj">
+      <Project>{C895683C-2D2A-4A12-BE25-720B4B9A1CB4}</Project>
+      <Name>JamesDibble.ApplicationFramework.Data.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Persistence\JamesDibble.ApplicationFramework.Data.Persistence.csproj">
       <Project>{4115485B-45E2-4BE7-9E6F-1B9661BF669A}</Project>
       <Name>JamesDibble.ApplicationFramework.Data.Persistence</Name>

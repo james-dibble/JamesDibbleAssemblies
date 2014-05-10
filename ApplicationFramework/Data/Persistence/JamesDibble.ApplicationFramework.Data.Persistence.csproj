@@ -52,11 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Constants.cs" />
-    <Compile Include="IPersistedObject.cs" />
     <Compile Include="IPersistenceCollectionSearcher.cs" />
     <Compile Include="IPersistenceManager.cs" />
     <Compile Include="IPersistenceSearcher.cs" />
-    <Compile Include="IUniqueObject.cs" />
     <Compile Include="PersistenceCollectionSearcher.cs" />
     <Compile Include="PersistenceSearcher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -65,7 +63,6 @@
     <Compile Include="TypeMapping\Configuration\TypeMappingConfigurationSection.cs" />
     <Compile Include="TypeMapping\ITypeMappingDictionary.cs" />
     <Compile Include="TypeMapping\TypeMappingDictionary.cs" />
-    <Compile Include="UniqueObject.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

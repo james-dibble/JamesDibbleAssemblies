@@ -6,10 +6,12 @@
     <authors>James Dibble</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>A generic repository interface for Entity Framework persistence sources.</description>
+    <dependencies>
+      <dependency id="JamesDibble.ApplicationFramework.Data.Core" version="$version$" />
+      <dependency id="EntityFramework" version="6.1.0" />
+    </dependencies>
   </metadata>
   <files>
-    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Core.dll" target="lib\JamesDibble.ApplicationFramework.Data.Core.dll" />
-    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Core.xml" target="lib\JamesDibble.ApplicationFramework.Data.Core.xml" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.UnitOfWork.dll" target="lib\JamesDibble.ApplicationFramework.Data.UnitOfWork.dll" />
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.UnitOfWork.xml" target="lib\JamesDibble.ApplicationFramework.Data.UnitOfWork.xml" />
   </files>

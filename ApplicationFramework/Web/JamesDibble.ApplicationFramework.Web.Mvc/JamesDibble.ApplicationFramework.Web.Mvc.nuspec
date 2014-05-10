@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extension classes for MVC applications.</description>
     <dependencies>
-      <dependency id="JamesDibble.ApplicationFramework.Configuration" version="1.0.0" />
+      <dependency id="JamesDibble.ApplicationFramework.Configuration" version="$version$" />
     </dependencies>
   </metadata>
   <files>

@@ -6,11 +6,15 @@
         <authors>James Dibble</authors>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A persistence ignorant set of application framework assemblies for interacting with databases.</description>
+        <dependencies>
+          <dependency id="JamesDibble.ApplicationFramework.Data.Core" version="$version$" />
+          <dependency id="JamesDibble.ApplicationFramework.Data.Persistence" version="$version$" />
+          <dependency id="JamesDibble.ApplicationFramework.Configuration" version="$version$" />
+          <dependency id="JamesDibble.Extensions.System" version="$version$" />
+        </dependencies>
     </metadata>
     <files>
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Configuration.dll" target="lib\JamesDibble.ApplicationFramework.Configuration.dll" />
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Configuration.XML" target="lib\JamesDibble.ApplicationFramework.Configuration.XML" />
         <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.dll" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.dll" />
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.xml" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.xml" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.XML" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.XML" />
     </files>
 </package>

@@ -7,7 +7,7 @@
     <authors>James Dibble</authors>
     <language>en-GB</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Extension methods for the System namespace.</description>
+    <description>Extensions for the System namespace.</description>
   </metadata>
   <files>
     <file src="..\..\Assemblies\JamesDibble.Extensions.System.dll" target="lib\JamesDibble.Extensions.System.dll" />

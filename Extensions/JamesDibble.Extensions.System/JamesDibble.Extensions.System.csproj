@@ -7,7 +7,7 @@
     <ProjectGuid>{3CD64482-1600-49B4-9DF6-03EFD8A539A2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>JamesDibble.Extensions.System</RootNamespace>
+    <RootNamespace>System</RootNamespace>
     <AssemblyName>JamesDibble.Extensions.System</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

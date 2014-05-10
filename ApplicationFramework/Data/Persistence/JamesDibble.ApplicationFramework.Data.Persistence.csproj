@@ -46,14 +46,6 @@
     <AssemblyOriginatorKeyFile>..\..\..\JamesDibble.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="JamesDibble.ApplicationFramework.Configuration, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\packages\JamesDibble.ApplicationFramework.Configuration.1.0.6.0\lib\net40\JamesDibble.ApplicationFramework.Configuration.dll</HintPath>
-    </Reference>
-    <Reference Include="JamesDibble.Extensions.System, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\packages\JamesDibble.Extensions.System.1.0.1\lib\JamesDibble.Extensions.System.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
@@ -78,7 +70,20 @@
   <ItemGroup>
     <None Include="app.config" />
     <None Include="JamesDibble.ApplicationFramework.Data.Persistence.nuspec" />
-    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Extensions\JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj">
+      <Project>{3cd64482-1600-49b4-9df6-03efd8a539a2}</Project>
+      <Name>JamesDibble.Extensions.System</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">
+      <Project>{6326af1f-7dbc-4757-bbc8-4b3308d014ab}</Project>
+      <Name>JamesDibble.ApplicationFramework.Configuration</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\JamesDibble.ApplicationFramework.Data.Core\JamesDibble.ApplicationFramework.Data.Core.csproj">
+      <Project>{c895683c-2d2a-4a12-be25-720b4b9a1cb4}</Project>
+      <Name>JamesDibble.ApplicationFramework.Data.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />

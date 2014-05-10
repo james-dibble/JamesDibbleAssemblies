@@ -37,8 +37,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Web.MetaWeblog", "ApplicationFramework\Web\JamesDibble.ApplicationFramework.Web.MetaWeblog\JamesDibble.ApplicationFramework.Web.MetaWeblog.csproj", "{FAD0D04B-D49D-44F0-9387-51D8358AA11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "Extensions\System\JamesDibble.Extensions.System.csproj", "{806AB052-CD1B-45AC-9F7A-E07E18B3527A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System.Data", "Extensions\Data\JamesDibble.Extensions.System.Data.csproj", "{F2DEF917-4823-4CB6-AB66-7DD7B516BA76}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Configuration", "ApplicationFramework\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj", "{6326AF1F-7DBC-4757-BBC8-4B3308D014AB}"
@@ -48,6 +46,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Data.Core", "ApplicationFramework\Data\JamesDibble.ApplicationFramework.Data.Core\JamesDibble.ApplicationFramework.Data.Core.csproj", "{C895683C-2D2A-4A12-BE25-720B4B9A1CB4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Web.Rss", "ApplicationFramework\Web\JamesDibble.ApplicationFramework.Web.Rss\JamesDibble.ApplicationFramework.Web.Rss.csproj", "{621AE2E7-9562-4BB8-9C27-6F9416B65C33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "Extensions\JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj", "{3CD64482-1600-49B4-9DF6-03EFD8A539A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,10 +79,6 @@ Global
 		{FAD0D04B-D49D-44F0-9387-51D8358AA11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD0D04B-D49D-44F0-9387-51D8358AA11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD0D04B-D49D-44F0-9387-51D8358AA11B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{806AB052-CD1B-45AC-9F7A-E07E18B3527A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{806AB052-CD1B-45AC-9F7A-E07E18B3527A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{806AB052-CD1B-45AC-9F7A-E07E18B3527A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{806AB052-CD1B-45AC-9F7A-E07E18B3527A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F2DEF917-4823-4CB6-AB66-7DD7B516BA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2DEF917-4823-4CB6-AB66-7DD7B516BA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2DEF917-4823-4CB6-AB66-7DD7B516BA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -103,14 +99,18 @@ Global
 		{621AE2E7-9562-4BB8-9C27-6F9416B65C33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{621AE2E7-9562-4BB8-9C27-6F9416B65C33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{621AE2E7-9562-4BB8-9C27-6F9416B65C33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD64482-1600-49B4-9DF6-03EFD8A539A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD64482-1600-49B4-9DF6-03EFD8A539A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD64482-1600-49B4-9DF6-03EFD8A539A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD64482-1600-49B4-9DF6-03EFD8A539A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{82A735CD-7E25-488A-A725-65A5CBEA2CB6} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
-		{806AB052-CD1B-45AC-9F7A-E07E18B3527A} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
 		{F2DEF917-4823-4CB6-AB66-7DD7B516BA76} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
+		{3CD64482-1600-49B4-9DF6-03EFD8A539A2} = {A77424F8-D824-4A62-9170-719EAACBF6DB}
 		{7188A703-704F-4BB1-94BA-744B7BE2A5D6} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
 		{C67887FF-1A2B-4188-AE79-B457131087A3} = {201B9BFC-7668-4C16-B819-8C6A524B044C}
 		{6326AF1F-7DBC-4757-BBC8-4B3308D014AB} = {201B9BFC-7668-4C16-B819-8C6A524B044C}

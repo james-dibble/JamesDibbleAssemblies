@@ -8,7 +8,6 @@
         <description>A persistence ignorant set of application framework assemblies for interacting with databases.</description>
         <dependencies>
           <dependency id="JamesDibble.ApplicationFramework.Data.Core" version="$version$" />
-          <dependency id="JamesDibble.ApplicationFramework.Data.Persistence" version="$version$" />
           <dependency id="JamesDibble.ApplicationFramework.Configuration" version="$version$" />
           <dependency id="JamesDibble.Extensions.System" version="$version$" />
         </dependencies>

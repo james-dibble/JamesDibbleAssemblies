@@ -13,7 +13,7 @@
         </dependencies>
     </metadata>
     <files>
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.dll" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.dll" />
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.XML" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.XML" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.dll" target="lib\net45\JamesDibble.ApplicationFramework.Data.Persistence.dll" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.XML" target="lib\net45\JamesDibble.ApplicationFramework.Data.Persistence.XML" />
     </files>
 </package>

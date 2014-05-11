@@ -14,7 +14,7 @@
   </metadata>
   <files>
     <file src="web.config.transform" target="content\web.config.transform" />
-    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.dll" target="lib\JamesDibble.ApplicationFramework.Web.Mvc.dll" />
-    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.XML" target="lib\JamesDibble.ApplicationFramework.Web.Mvc.XML" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.dll" target="lib\net45\JamesDibble.ApplicationFramework.Web.Mvc.dll" />
+    <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Mvc.XML" target="lib\net45\JamesDibble.ApplicationFramework.Web.Mvc.XML" />
   </files>
 </package>

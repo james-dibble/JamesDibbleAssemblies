@@ -10,7 +10,7 @@
     <description>Extensions for the System namespace.</description>
   </metadata>
   <files>
-    <file src="..\..\Assemblies\JamesDibble.Extensions.System.dll" target="lib\JamesDibble.Extensions.System.dll" />
-    <file src="..\..\Assemblies\JamesDibble.Extensions.System.XML" target="lib\JamesDibble.Extensions.System.XML" />
+    <file src="..\..\Assemblies\JamesDibble.Extensions.System.dll" target="lib\net45\JamesDibble.Extensions.System.dll" />
+    <file src="..\..\Assemblies\JamesDibble.Extensions.System.XML" target="lib\net45\JamesDibble.Extensions.System.XML" />
   </files>
 </package>

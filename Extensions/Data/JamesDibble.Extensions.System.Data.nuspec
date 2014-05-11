@@ -10,7 +10,7 @@
     <description>Extensions for the System.Data namespace.</description>
   </metadata>
   <files>
-    <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.dll" target="lib\JamesDibble.Extensions.System.Data.dll" />
-    <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.XML" target="lib\JamesDibble.Extensions.System.Data.XML" />
+    <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.dll" target="lib\net45\JamesDibble.Extensions.System.Data.dll" />
+    <file src="..\..\Assemblies\JamesDibble.Extensions.System.Data.XML" target="lib\net45\JamesDibble.Extensions.System.Data.XML" />
   </files>
 </package>

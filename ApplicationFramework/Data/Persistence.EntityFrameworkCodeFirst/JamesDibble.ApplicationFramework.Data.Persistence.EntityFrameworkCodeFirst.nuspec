@@ -7,12 +7,12 @@
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Application Framework assemblies for use with Entity Framework Code First</description>
         <dependencies>
-          <dependency id="JamesDibble.ApplicationFramework.Data.Persistence" version="$version$" />
+          <dependency id="JamesDibble.ApplicationFramework.Data.Core" version="$version$" />
           <dependency id="EntityFramework" version="6.1.0" />
         </dependencies>
     </metadata>
     <files>
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" />
-        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" target="lib\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" target="lib\net45\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.dll" />
+        <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" target="lib\net45\JamesDibble.ApplicationFramework.Data.Persistence.EntityFrameworkCodeFirst.XML" />
     </files>
 </package>

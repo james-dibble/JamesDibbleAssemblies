@@ -10,7 +10,7 @@
         <description>System IComparer realisations</description>
     </metadata>
     <files>
-        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Comparers.dll" target="lib\JamesDibble.Extensions.System.Comparers.dll" />
-        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Comparers.XML" target="lib\JamesDibble.Extensions.System.Comparers.XML" />
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Comparers.dll" target="lib\net45\JamesDibble.Extensions.System.Comparers.dll" />
+        <file src="..\..\Assemblies\JamesDibble.Extensions.System.Comparers.XML" target="lib\net45\JamesDibble.Extensions.System.Comparers.XML" />
     </files>
 </package>

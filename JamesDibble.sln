@@ -6,7 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7910296-F001-48D6-BBBF-8DEFCEE7FF50}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
-		appveyor.yml = appveyor.yml
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
@@ -48,7 +47,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFram
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.ApplicationFramework.Web.Rss", "ApplicationFramework\Web\JamesDibble.ApplicationFramework.Web.Rss\JamesDibble.ApplicationFramework.Web.Rss.csproj", "{621AE2E7-9562-4BB8-9C27-6F9416B65C33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "Extensions\JamesDibble.Extensions.System\JamesDibble.Extensions.System.csproj", "{3CD64482-1600-49B4-9DF6-03EFD8A539A2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamesDibble.Extensions.System", "Extensions\System\JamesDibble.Extensions.System.csproj", "{3CD64482-1600-49B4-9DF6-03EFD8A539A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -73,6 +73,10 @@
       <Project>{f2def917-4823-4cb6-ab66-7dd7b516ba76}</Project>
       <Name>JamesDibble.Extensions.System.Data</Name>
     </ProjectReference>
+    <ProjectReference Include="..\..\..\Extensions\System\JamesDibble.Extensions.System.csproj">
+      <Project>{3CD64482-1600-49B4-9DF6-03EFD8A539A2}</Project>
+      <Name>JamesDibble.Extensions.System</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">
       <Project>{6326af1f-7dbc-4757-bbc8-4b3308d014ab}</Project>
       <Name>JamesDibble.ApplicationFramework.Configuration</Name>

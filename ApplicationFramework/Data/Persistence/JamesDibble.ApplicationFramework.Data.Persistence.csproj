@@ -70,7 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\Extensions\System\JamesDibble.Extensions.System.csproj">
-      <Project>{3CD64482-1600-49B4-9DF6-03EFD8A539A2}</Project>
+      <Project>{3cd64482-1600-49b4-9df6-03efd8a539a2}</Project>
       <Name>JamesDibble.Extensions.System</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\Configuration\JamesDibble.ApplicationFramework.Configuration.csproj">

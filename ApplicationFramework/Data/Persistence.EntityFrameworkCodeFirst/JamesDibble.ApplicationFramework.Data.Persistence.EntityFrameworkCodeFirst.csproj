@@ -41,10 +41,6 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\packages\EntityFramework.6.1.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="JamesDibble.Extensions.System, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\packages\JamesDibble.Extensions.System.1.0.1\lib\JamesDibble.Extensions.System.dll</HintPath>
-    </Reference>
     <Reference Include="JamesDibble.Extensions.System.Data, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\packages\JamesDibble.Extensions.System.Data.1.0.6.0\lib\net45\JamesDibble.Extensions.System.Data.dll</HintPath>
@@ -58,6 +54,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Extensions\System\JamesDibble.Extensions.System.csproj">
+      <Project>{3cd64482-1600-49b4-9df6-03efd8a539a2}</Project>
+      <Name>JamesDibble.Extensions.System</Name>
+    </ProjectReference>
     <ProjectReference Include="..\JamesDibble.ApplicationFramework.Data.Core\JamesDibble.ApplicationFramework.Data.Core.csproj">
       <Project>{C895683C-2D2A-4A12-BE25-720B4B9A1CB4}</Project>
       <Name>JamesDibble.ApplicationFramework.Data.Core</Name>

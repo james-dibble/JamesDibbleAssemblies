@@ -5,6 +5,7 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace JamesDibble.ApplicationFramework.Web.Mvc
 {
+    using System;
     using System.Linq;
     using System.Web.Mvc;
     using JamesDibble.ApplicationFramework.Configuration;
@@ -106,6 +107,33 @@ namespace JamesDibble.ApplicationFramework.Web.Mvc
             }
 
             return fullPath;
+        }
+
+        /// <summary>
+        /// Create an HMTL class attribute adding a <paramref name="class"/> if a boolean function is met.
+        /// </summary>
+        /// <param name="class">The class to add if it should be active.</param>
+        /// <param name="isActive">A boolean indicating whether the <paramref name="class"/> should be added.</param>
+        /// <param name="additionalClasses">Any extra class that should be added to the attribute.</param>
+        /// <returns>An HMTL class attribute.</returns>
+        public static string ClassIfActive(string @class, bool isActive, params string[] additionalClasses)
+        {
+            var classString = string.Join(" ", additionalClasses);
+
+            classString = isActive ? string.Join(" ", classString, @class) : classString;
+
+            return string.Format(@"class=""{0}""", classString);
+        }
+
+        /// <summary>
+        /// Create string representing a <paramref name="class"/> if a boolean function is met.
+        /// </summary>
+        /// <param name="class">The class to add if it should be active.</param>
+        /// <param name="isActive">A boolean indicating whether the <paramref name="class"/> should be added.</param>
+        /// <returns>An HMTL class attribute.</returns>
+        public static string ClassIfActive(string @class, bool isActive)
+        {
+            return isActive ? @class : string.Empty;
         }
     }
 }

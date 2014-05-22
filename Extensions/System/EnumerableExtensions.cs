@@ -40,5 +40,19 @@ namespace System
 
             return result;
         }
+
+        /// <summary>
+        /// An extension method to create a URL from a <see cref="System.Collections.Generic.IDictionary{TKey, TValue}"/>.
+        /// </summary>
+        /// <typeparam name="TKey">The type of the key.</typeparam>
+        /// <typeparam name="TValue">The type of the value.</typeparam>
+        /// <param name="urlValues">The dictionary to create a URL from.</param>
+        /// <returns>A URL representation of the dictionary.</returns>
+        public static string ToUrlString<TKey, TValue>(this IDictionary<TKey, TValue> urlValues)
+        {
+            var url = urlValues.Aggregate(string.Empty, (current, urlValue) => string.Join("/", current, urlValue.Key, urlValue.Value));
+
+            return url;
+        }
     }
 }

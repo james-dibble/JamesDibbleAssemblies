@@ -89,6 +89,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DictionaryRouteHandler.cs" />
     <Compile Include="ExtendedWebViewPage.cs" />
     <Compile Include="PerRequestLifetimeManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

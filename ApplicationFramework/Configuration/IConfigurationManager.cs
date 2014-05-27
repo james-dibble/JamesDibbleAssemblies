@@ -59,9 +59,12 @@ namespace JamesDibble.ApplicationFramework.Configuration
         /// <param name="type">
         /// The type.
         /// </param>
+        /// <param name="resourcePath">
+        /// The path of the actual resource.
+        /// </param>
         /// <returns>
         /// The <see cref="string"/>.
         /// </returns>
-        string ResourcePath(string type);
+        string ResourcePath(string type, string resourcePath);
     }
 }

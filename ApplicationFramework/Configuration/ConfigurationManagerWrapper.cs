@@ -5,10 +5,13 @@
 // --------------------------------------------------------------------------------------------------------------------
 namespace JamesDibble.ApplicationFramework.Configuration
 {
-    using System;
     using System.Collections.Specialized;
     using System.Configuration;
+    using System.IO;
     using System.Linq;
+    using System.Web;
+    using System.Web.Caching;
+    using System.Web.Hosting;
 
     /// <summary>
     /// A wrapper for the <see cref="ConfigurationManager"/> class.
@@ -97,14 +100,54 @@ namespace JamesDibble.ApplicationFramework.Configuration
         /// <param name="type">
         /// The type.
         /// </param>
+        /// <param name="relativePath">
+        /// The static resource path to retrieve.
+        /// </param>
         /// <returns>
         /// The <see cref="string"/>.
         /// </returns>
-        public string ResourcePath(string type)
+        public string ResourcePath(string type, string relativePath)
         {
+            //// Jesus this is a mess..
+
             var configurationSection = this._configuration.ResourceLocations;
 
-            var filePath = string.Concat(configurationSection.BasePath, configurationSection.Resource(type).Path);
+            var resourceType = configurationSection.Resource(type);
+
+            var filePath = resourceType.UseBasePath ?
+                Path.Combine(configurationSection.BasePath, configurationSection.Resource(type).Path, relativePath)
+                :
+                Path.Combine(resourceType.Path, relativePath);
+
+            // We don't want the minified source
+            if (this._configuration.ResourceLocations.UseMinified && (relativePath.EndsWith(".css") || relativePath.EndsWith(".js")))
+            {
+                var minifiedFileNameArray = filePath.Split('.').ToList();
+
+                minifiedFileNameArray.Reverse();
+
+                minifiedFileNameArray.Insert(1, "min");
+
+                minifiedFileNameArray.Reverse();
+
+                filePath = string.Join(".", minifiedFileNameArray);
+            }
+
+            // This is a local resource and it should be cached, add it to the cache and return its address.
+            // Cheers to Mads for this (http://madskristensen.net/post/cache-busting-in-aspnet)
+            if (resourceType.Fingerprint && HttpRuntime.Cache[filePath] == null)
+            {
+                var absolute = HostingEnvironment.MapPath("~" + filePath);
+                var date = File.GetLastWriteTime(absolute);
+                var index = relativePath.LastIndexOf('/');
+                var fingerprint = relativePath.Insert(index, "/v-" + date.Ticks);
+                HttpRuntime.Cache.Insert(relativePath, fingerprint, new CacheDependency(absolute));
+            }
+
+            if (resourceType.Fingerprint)
+            {
+                return HttpRuntime.Cache[filePath] as string;
+            }
 
             return filePath;
         }

@@ -6,6 +6,7 @@
 namespace JamesDibble.ApplicationFramework.Web.Mvc
 {
     using System;
+    using System.IO;
     using System.Linq;
     using System.Web.Mvc;
     using JamesDibble.ApplicationFramework.Configuration;
@@ -89,24 +90,9 @@ namespace JamesDibble.ApplicationFramework.Web.Mvc
         /// </returns>
         public string Resource(string resourceTypeKey, string resourcePath)
         {
-            var resourceTypePath = this.Configuration.ResourcePath(resourceTypeKey);
+            var resourceTypePath = this.Configuration.ResourcePath(resourceTypeKey, resourcePath);
 
-            var fullPath = string.Concat(resourceTypePath, resourcePath);
-
-            if (this.Configuration.UseMinified && (fullPath.EndsWith(".css") || fullPath.EndsWith(".js")))
-            {
-                var minifiedFileNameArray = fullPath.Split('.').ToList();
-
-                minifiedFileNameArray.Reverse();
-
-                minifiedFileNameArray.Insert(1, "min");
-
-                minifiedFileNameArray.Reverse();
-
-                fullPath = string.Join(".", minifiedFileNameArray);
-            }
-
-            return fullPath;
+            return resourceTypePath;
         }
 
         /// <summary>

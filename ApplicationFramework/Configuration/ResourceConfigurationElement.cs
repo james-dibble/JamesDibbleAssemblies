@@ -35,5 +35,29 @@ namespace JamesDibble.ApplicationFramework.Configuration
                 return (string)this["resourceType"];
             }
         }
+
+        /// <summary>
+        /// Gets a value indicating whether this resource type is in the base path.
+        /// </summary>
+        [ConfigurationProperty("useBasePath", IsKey = false, IsRequired = false, DefaultValue = true)]
+        public bool UseBasePath
+        {
+            get
+            {
+                return (bool) this["useBasePath"];
+            }
+        }
+
+        /// <summary>
+        /// Gets a value indicating whether this resource type can be fingerprinted.
+        /// </summary>
+        [ConfigurationProperty("fingerprint", IsKey = false, IsRequired = false, DefaultValue = false)]
+        public bool Fingerprint
+        {
+            get
+            {
+                return (bool) this["fingerprint"];
+            }
+        }
     }
 }

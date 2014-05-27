@@ -6,7 +6,30 @@
   <applicationConfiguration environment="">
     <baseTitle title="" />
     <ResourceLocations basePath="" useMinified="false">
-      <Resource resourceType="" path="" />
+      <Resource resourceType="" path="" useBasePath="false" fingerprint="true" />
     </ResourceLocations>
   </applicationConfiguration>
+  <system.webServer>
+    <modules>
+      <add name="RemoveETagModule" type="JamesDibble.ApplicationFramework.Web.Mvc.RemoveETagModule" />
+    </modules>
+    <staticContent>
+      <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="365.00:00:00" />
+    </staticContent>
+    <rewrite>
+      <rules>
+        <rule name="Canonical Host Name" stopProcessing="true">
+          <match url="(.*)" />
+          <conditions>
+            <add input="{HTTP_HOST}" pattern="^domain\.com$" />
+          </conditions>
+          <action type="Redirect" url="http://www.domain.com/{R:1}" redirectType="Permanent" />
+        </rule>
+        <rule name="fingerprint">
+          <match url="([\S]+)(/v-[0-9]+/)([\S]+)"  />
+          <action type="Rewrite" url="{R:1}/{R:3}" />
+        </rule>
+      </rules>
+    </rewrite>
+  </system.webServer>
 </configuration>

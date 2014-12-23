@@ -8,6 +8,9 @@
     <language>en-GB</language>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Extensions for MVC applications to build RSS Feeds</description>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Mvc" version="4.0.30506" />
+    </dependencies>
   </metadata>
   <files>
     <file src="..\..\..\Assemblies\JamesDibble.ApplicationFramework.Web.Rss.dll" target="lib\net45\JamesDibble.ApplicationFramework.Web.Rss.dll" />
